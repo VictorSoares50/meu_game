@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: darkred;
+    color: #fff;
+}
+
+.sedan-sc-regular,
+header,
+section h2 {
+    font-family: "Sedan SC", serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(124, 0, 0, 0.281);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    margin-right: 35px;
+    margin-top: 24px;
+    height: 300px;
+    width: 500px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 25px 0;
+}
+
+section h2 {
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+#gameplay h2 {
+    margin-left: 200px;
+}
+
+#gameplay p {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.brands-list img {
+    margin-top: 5px;
+    height: 24px;
+    width: 10%;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#gameplay img {
+    margin-right: 10px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(161, 1, 1, 0.63);
+}
+
+input:focus, textarea:focus {
+    outline-color: darkred;
+}
+
+.social-links img {
+    height: 24px;
+    width: 30px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: darkred;
+    color: #fff;
+    padding: 16px 0;
+}
+
